@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto:wght@700&display=swap');
+
+$dark-color : #2D2D2D;
+$light-color : white;
+$accent-color : #CB202D;
+$offset-color : #7F8487;
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin: auto;
+    padding: 2rem;
+
+    .navbar__logo {
+        font-family: 'Nunito', sans-serif;
+        text-decoration: none;
+        font-size: 3rem;
+        color: $accent-color;
+    }
+
+    .navbar__menu {
+        a {
+            text-decoration: none;
+            padding: 0.7rem 1.5rem;
+            font-family: 'Roboto', sans-serif;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            color: $dark-color;
+        }
+
+        .navbar__signinButton:hover {
+            color: $offset-color;
+        }
+
+        .navbar__registerButton {
+            border: $accent-color 2px solid;
+            border-radius: 5px;
+            color: $accent-color;
+        }
+
+        .navbar__registerButton:hover {
+            color: $light-color;
+            background-color: $accent-color;
+        }
+    }
+
+    .navbar__hamburgerMenuIcon {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .navbar {
+
+        .navbar__menu {
+            display: none;
+        }
+
+        .navbar__hamburgerMenuIcon {
+            display: block;
+            font-size: 2rem;
+            cursor: pointer;
+            color: $accent-color;
+        }
+    }
+
+}

@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:wght@700&family=Roboto:wght@500&display=swap');
+
+$dark-color : #2D2D2D;
+$light-color : white;
+$accent-color : #CB202D;
+$offset-color : #7F8487;
+
+.home {
+    max-width: 1500px;
+    margin: auto;
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: 40% 60%;
+
+
+
+    .home__lineDiv {
+        display: flex;
+        align-items: center;
+        height: 80vh;
+
+
+        h1 {
+            font-size: 5rem;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+
+        h3 {
+            font-weight: 500;
+            opacity: 0.65;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .home__input {
+            padding: 5rem 0;
+
+            input {
+                font-size: 1.5rem;
+                color: $offset-color;
+                padding: 0.2rem 1rem;
+                font-family: 'Montserrat', sans-serif;
+                width: 40%;
+            }
+
+            input:focus {
+                outline: none;
+            }
+
+            button {
+                background-color: $accent-color;
+                border: none;
+                color: $light-color;
+                padding: 0.5rem 1rem;
+                font-size: 1.2rem;
+                margin: 0 1rem;
+                text-transform: uppercase;
+                font-family: 'Montserrat', sans-serif;
+                width: 30%;
+            }
+
+            button:hover {
+                cursor: pointer;
+                opacity: 0.85;
+            }
+        }
+
+    }
+
+    .home__imageDiv {
+        display: flex;
+        align-items: center;
+        background-image: url("../images/burger.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+
+
+        .home__image {
+            width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .home {
+        width: 90vw;
+        display: block;
+    }
+
+    .home__input {
+        button {
+            padding: 0.5rem !important;
+        }
+    }
+}

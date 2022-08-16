@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Nunito:wght@700&family=Roboto:wght@500&display=swap");
+.home {
+  max-width: 1500px;
+  margin: auto;
+  padding: 2rem 0;
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.home .home__lineDiv {
+  display: flex;
+  align-items: center;
+  height: 80vh;
+}
+.home .home__lineDiv h1 {
+  font-size: 5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+.home .home__lineDiv h3 {
+  font-weight: 500;
+  opacity: 0.65;
+  font-family: "Montserrat", sans-serif;
+}
+.home .home__lineDiv .home__input {
+  padding: 5rem 0;
+}
+.home .home__lineDiv .home__input input {
+  font-size: 1.5rem;
+  color: #7F8487;
+  padding: 0.2rem 1rem;
+  font-family: "Montserrat", sans-serif;
+  width: 40%;
+}
+.home .home__lineDiv .home__input input:focus {
+  outline: none;
+}
+.home .home__lineDiv .home__input button {
+  background-color: #CB202D;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+  width: 30%;
+}
+.home .home__lineDiv .home__input button:hover {
+  cursor: pointer;
+  opacity: 0.85;
+}
+.home .home__imageDiv {
+  display: flex;
+  align-items: center;
+  background-image: url("../images/burger.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+}
+.home .home__imageDiv .home__image {
+  width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .home {
+    width: 90vw;
+    display: block;
+  }
+  .home__input button {
+    padding: 0.5rem !important;
+  }
+}/*# sourceMappingURL=Home.css.map */

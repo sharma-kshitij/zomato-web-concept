@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Roboto:wght@700&display=swap");
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1500px;
+  margin: auto;
+  padding: 2rem;
+}
+.navbar .navbar__logo {
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  font-size: 3rem;
+  color: #CB202D;
+}
+.navbar .navbar__menu a {
+  text-decoration: none;
+  padding: 0.7rem 1.5rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #2D2D2D;
+}
+.navbar .navbar__menu .navbar__signinButton:hover {
+  color: #7F8487;
+}
+.navbar .navbar__menu .navbar__registerButton {
+  border: #CB202D 2px solid;
+  border-radius: 5px;
+  color: #CB202D;
+}
+.navbar .navbar__menu .navbar__registerButton:hover {
+  color: white;
+  background-color: #CB202D;
+}
+.navbar .navbar__hamburgerMenuIcon {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar .navbar__menu {
+    display: none;
+  }
+  .navbar .navbar__hamburgerMenuIcon {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #CB202D;
+  }
+}/*# sourceMappingURL=Navbar.css.map */
