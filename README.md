@@ -15,7 +15,7 @@ To be added Features:
 In the project directory, you can run:
 ### `npm install`
 
-Installs the required Dependencies.\
+Installs the required Dependencies.
 ### `npm start`
 
 Runs the app in the development mode.\
