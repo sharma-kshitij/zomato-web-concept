@@ -2,15 +2,33 @@
 .home {
   max-width: 1500px;
   margin: auto;
-  padding: 2rem 0;
+  padding: 0 0;
   display: grid;
   grid-template-columns: 40% 60%;
   color: white;
+  height: 82.4vh;
 }
 .home .home__lineDiv {
   display: flex;
   align-items: center;
   height: 80vh;
+}
+.home .home__lineDiv .home__seeAll {
+  background-color: #CB202D;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.home .home__lineDiv .home__seeAll a {
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.home .home__lineDiv .home__seeAll:hover {
+  cursor: pointer;
+  opacity: 0.85;
 }
 .home .home__lineDiv h1 {
   font-size: 5rem;

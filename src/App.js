@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home'
 import About from './pages/About'
 import Cart from './pages/Cart'
+import AllRestaurants from './pages/AllRestaurants'
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
           <Route path='/cart' element={<Cart />} />
 
           <Route path='/about' element={<About />} />
+
+          <Route path='/all-restaurants' element={<AllRestaurants />} />
 
           <Route path='/' element={<Home />} />
 

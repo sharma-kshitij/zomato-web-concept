@@ -8,10 +8,11 @@ $offset-color : #7F8487;
 .home {
     max-width: 1500px;
     margin: auto;
-    padding: 2rem 0;
+    padding: 0 0;
     display: grid;
     grid-template-columns: 40% 60%;
     color: $light-color;
+    height: 82.4vh;
 
 
 
@@ -20,6 +21,26 @@ $offset-color : #7F8487;
         align-items: center;
         height: 80vh;
 
+        .home__seeAll {
+            background-color: $accent-color;
+            border: none;
+            padding: 0.5rem 1rem;
+            margin: 1rem 0;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+
+            a {
+                text-decoration: none;
+                color: $light-color;
+                font-family: 'Montserrat', sans-serif;
+
+            }
+        }
+
+        .home__seeAll:hover {
+            cursor: pointer;
+            opacity: 0.85;
+        }
 
         h1 {
             font-size: 5rem;
