@@ -11,7 +11,10 @@
   font-family: "Nunito", sans-serif;
   text-decoration: none;
   font-size: 3rem;
-  color: #CB202D;
+  color: white;
+  background-color: #CB202D;
+  padding: 1rem 0.5rem;
+  border-radius: 10px;
 }
 .navbar .navbar__menu a {
   text-decoration: none;
@@ -19,7 +22,7 @@
   font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   text-transform: uppercase;
-  color: #2D2D2D;
+  color: white;
 }
 .navbar .navbar__menu .navbar__signinButton:hover {
   color: #7F8487;
@@ -27,7 +30,7 @@
 .navbar .navbar__menu .navbar__registerButton {
   border: #CB202D 2px solid;
   border-radius: 5px;
-  color: #CB202D;
+  color: white;
 }
 .navbar .navbar__menu .navbar__registerButton:hover {
   color: white;

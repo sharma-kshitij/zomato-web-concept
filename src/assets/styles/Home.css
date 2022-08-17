@@ -5,6 +5,7 @@
   padding: 2rem 0;
   display: grid;
   grid-template-columns: 40% 60%;
+  color: white;
 }
 .home .home__lineDiv {
   display: flex;
@@ -33,6 +34,7 @@
 }
 .home .home__lineDiv .home__input input:focus {
   outline: none;
+  color: #2D2D2D;
 }
 .home .home__lineDiv .home__input button {
   background-color: #CB202D;
@@ -52,7 +54,6 @@
 .home .home__imageDiv {
   display: flex;
   align-items: center;
-  background-image: url("../images/burger.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100%;

@@ -7,18 +7,20 @@ import Cart from './pages/Cart'
 
 function App() {
   return (
-    <BrowserRouter>
-      <Navbar />
-      <Routes>
+    <div className='App'>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
 
-        <Route path='/cart' element={<Cart />} />
+          <Route path='/cart' element={<Cart />} />
 
-        <Route path='/about' element={<About />} />
+          <Route path='/about' element={<About />} />
 
-        <Route path='/' element={<Home />} />
+          <Route path='/' element={<Home />} />
 
-      </Routes>
-    </BrowserRouter>
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 

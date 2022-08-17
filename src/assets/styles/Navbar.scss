@@ -17,7 +17,10 @@ $offset-color : #7F8487;
         font-family: 'Nunito', sans-serif;
         text-decoration: none;
         font-size: 3rem;
-        color: $accent-color;
+        color: $light-color;
+        background-color: $accent-color;
+        padding: 1rem 0.5rem;
+        border-radius: 10px;
     }
 
     .navbar__menu {
@@ -27,7 +30,7 @@ $offset-color : #7F8487;
             font-family: 'Roboto', sans-serif;
             font-size: 1.2rem;
             text-transform: uppercase;
-            color: $dark-color;
+            color: $light-color;
         }
 
         .navbar__signinButton:hover {
@@ -37,7 +40,7 @@ $offset-color : #7F8487;
         .navbar__registerButton {
             border: $accent-color 2px solid;
             border-radius: 5px;
-            color: $accent-color;
+            color: $light-color;
         }
 
         .navbar__registerButton:hover {

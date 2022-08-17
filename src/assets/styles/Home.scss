@@ -11,6 +11,7 @@ $offset-color : #7F8487;
     padding: 2rem 0;
     display: grid;
     grid-template-columns: 40% 60%;
+    color: $light-color;
 
 
 
@@ -45,6 +46,7 @@ $offset-color : #7F8487;
 
             input:focus {
                 outline: none;
+                color: $dark-color;
             }
 
             button {
@@ -70,7 +72,6 @@ $offset-color : #7F8487;
     .home__imageDiv {
         display: flex;
         align-items: center;
-        background-image: url("../images/burger.png");
         background-size: cover;
         background-repeat: no-repeat;
         height: 100%;
